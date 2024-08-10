@@ -1,0 +1,63 @@
+
+.container{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    background:linear-gradient(rgba(34,56,78,0.567),rgba(45,67,89,0.567));
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .section{
+      background-color: white;
+      padding:10px 10px;
+      width:40%;
+      height:60%;
+      border-radius:10px;
+      position:relative;
+  }
+  
+   .image{
+      width:100px;
+      height:100px;
+      background:url("https://wallpaperaccess.com/download/laughing-emoji-2620828");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position: center;
+      position:absolute;
+      left:230px;
+      top:80px;
+   }
+  
+  #btn{
+    padding:5px 10px;
+    font-size:1rem;
+    background-color:cyan;
+    box-shadow:0 0 10em cyan;
+    border-radius:10px;
+    position:absolute;
+    top:400px;
+    left:220px;
+    border:none;
+    cursor:pointer;
+  }
+  
+  #btn:active{
+     background-color: red;
+     transition: 0.2s;
+  }
+  
+  #output{
+     font-size:19px;
+     position:absolute;
+     top:160px;
+     left:60px;
+     padding:30px 30px;
+  }
+  
+  .heading{
+    text-align:center;
+  
+  }
+    
